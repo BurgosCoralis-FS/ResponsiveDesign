@@ -14,7 +14,7 @@ For this project, I made a simple landing page mainly using HTML and CSS, JS to 
 </p>
 
 <p align="center" >
-<a href="#">Try it out here</a> 
+<a href="https://burgoscoralis-fs.github.io/ResponsiveDesign/">Try it out here</a> 
 </p>
 
 ## Files
@@ -24,6 +24,6 @@ For this project, I made a simple landing page mainly using HTML and CSS, JS to 
 
 ## How To Use
 
-To clone and run this project locally, you'll need [Git](https://git-scm.com), [Node.js](https://nodejs.org/en) and [Live Server extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) installed on your computer. 
+To clone and run this project locally, you'll need [Git](https://git-scm.com)and [Live Server extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) installed on your computer. 
 
 Open the project and click on "Go Live" on the status bar to launch the server.
