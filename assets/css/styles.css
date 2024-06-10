@@ -130,7 +130,7 @@ ul {
 }
 
 .connecting {
-    color: var(--secondary-color);
+    color: #5da4d3;
 }
 
 .btn {
@@ -143,37 +143,37 @@ ul {
     color: #fff;
 }
 
-.red {
+.black {
     background-color: var(--secondary-color);
     margin-right: 1.5rem;
 }
 
-.red:hover {
-    background-color: #f1262d;
+.black:hover {
+    background-color: #5d86a2;
     color: #fff;
 }
 
 .blue {
-    background-color: var(--primary-color);
+    background-color: #5d86a2;
 }
 
 .blue:hover {
-    background-color: #095cf7;
+    background-color: var(--secondary-color);
     color: #fff;
 }
 
 iframe {
     max-width: 30rem;
-    border-top: 40px groove var(--primary-color);
-    border-bottom: 40px groove var(--primary-color);
-    border-right: 28px solid var(--secondary-color);
-    border-left: 28px solid var(--secondary-color);
+    border-top: 40px groove #5d86a2;
+    border-bottom: 40px groove #5d86a2;
+    border-right: 28px solid #406f8e;
+    border-left: 28px solid #406f8e;
 }
 
 .stand-1 {
     height: 90px;
     width: 6px;
-    background-color: var(--primary-color);
+    background-color: #406f8e;
     transform: rotate(40deg);
     position: relative;
     top: -16px;
@@ -183,7 +183,7 @@ iframe {
 .stand-2 {
     height: 90px;
     width: 6px;
-    background-color: var(--secondary-color);
+    background-color: #5d86a2;
     transform: rotate(-40deg);
     position: relative;
     top: -105px;
