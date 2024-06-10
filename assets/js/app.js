@@ -35,6 +35,8 @@ checkbox.addEventListener("change", () => {
 
     // Update header text based on theme
     if (document.body.classList.contains("dark")) {
+        //change font
+        document.querySelector("body").style.fontFamily = "Rock Salt"
         //change title
         navTitle.textContent = "The Abysmal EP";
 
@@ -75,6 +77,9 @@ checkbox.addEventListener("change", () => {
         // Change iframe source
         iframe.src = "https://www.youtube.com/embed/2KmKl_gRlDs?si=-_qnijLBgJ0vw_U5";
     } else {
+        //change font back to original
+        document.querySelector("body").style.fontFamily = "Caveat"
+        
         // change title back to original
         navTitle.textContent = "perfect blues";
 
