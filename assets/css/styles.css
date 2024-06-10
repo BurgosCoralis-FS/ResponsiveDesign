@@ -450,6 +450,11 @@ body.dark footer {
     box-shadow: 0px -2px 3px #111010;
 }
 
+/* New rule to change nav h1 content in dark mode */
+body.dark nav .logo::before {
+    content: "The Abysmal EP";
+}
+
 @media screen and (max-width: 768px) {
     .hamburger {
         display: block;

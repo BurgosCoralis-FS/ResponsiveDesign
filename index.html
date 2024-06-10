@@ -1,264 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- Web page CSS -->
-        <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-        <!-- Simple lightbox CSS -->
-        <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" />
+    <!-- Simple lightbox CSS -->
+    <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" />
 
-        <!-- Favicons -->
-        <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="assets/icons/apple-touch-icon.png"
-        />
-        <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="assets/icons/favicon-32x32.png"
-        />
-        <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href="assets/icons/favicon-16x16.png"
-        />
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png" />
 
-        <!-- Fonts -->
-        <link 
-        rel="preconnect" 
-        href="https://fonts.googleapis.com">
-        <link 
-        rel="preconnect" 
-        href="https://fonts.gstatic.com" 
-        crossorigin>
-        <link 
-        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" 
-        rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
 
-        <title>Landing Page</title>
-    </head>
-    <body>
-        <!-- Navbar -->
-        <nav>
-            <a>
-                <h1>
-                    perfect blues
-                </h1>
-            </a>
+    <title>Landing Page</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a>
+            <h1 id="nav-title">perfect blues</h1>
+        </a>
 
-            <ul>
-                <li class="nav-item">
-                    <a href="#perfect" class="nav-link" id="nav-link">
-                        Perfect
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#pictures" class="nav-link" id="nav-link">
-                        Pictures
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#albums" class="nav-link" id="nav-link">
-                        Albums
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#sub" class="nav-link" id="nav-link">
-                        Contact us
-                    </a>
-                </li>
-            </ul>
+        <ul>
+            <li class="nav-item">
+                <a href="#perfect" class="nav-link" id="nav-link">Perfect</a>
+            </li>
+            <li class="nav-item">
+                <a href="#pictures" class="nav-link" id="nav-link">Pictures</a>
+            </li>
+            <li class="nav-item">
+                <a href="#albums" class="nav-link" id="nav-link">Albums</a>
+            </li>
+            <li class="nav-item">
+                <a href="#sub" class="nav-link" id="nav-link">Contact us</a>
+            </li>
+        </ul>
 
-            <!-- Dark/light theme switcher -->
-            <div class="theme-switch">
-                <input type="checkbox" class="checkbox" id="checkbox" />
-                <label for="checkbox" class="label">
+        <!-- Dark/light theme switcher -->
+        <div class="theme-switch">
+            <input type="checkbox" class="checkbox" id="checkbox" />
+            <label for="checkbox" class="label">
                 <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
                 <ion-icon name="moon-outline" class="moon"></ion-icon>
                 <div class="switcher"></div>
-                </label>
-            </div>
+            </label>
+        </div>
 
-            <!-- Bars -->
-            <div class="hamburger" id="hamburger">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-        </nav>
+        <!-- Bars -->
+        <div class="hamburger" id="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
 
-        <!-- Hero section -->
-        <section class="hero">
-            <div class="intro-text">
-                <h1>
-                    <span class="hear"> 
-                    Playing the perfect blues  
-                    </span> <br />
-                    <span class="connecting"> 
-                    Happy moments, take a breath
-                    </span>
-                </h1>
-                <h3>
-                    Singing a perfect tune
-                </h3>
-                <a class="btn black" href="#">
-                    Feeling creatures
-                </a>
-                <a class="btn blue" href="#">
-                    in the depth
-                </a>
-            </div>
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="intro-text">
+            <h1>
+                <span class="hear">Playing the perfect blues</span> <br />
+                <span class="connecting">Happy moments, take a breath</span>
+            </h1>
+            <h3 class="sub">Singing a perfect tune</h3>
+            <a class="btn black" href="#">Feeling creatures</a>
+            <a class="btn blue" href="#">in the depth</a>
+        </div>
 
-            <div class="i-frame">
-                <iframe 
-                width="560" 
-                height="315" 
-                src="https://www.youtube.com/embed/M-9PLDrC_vQ?si=FhA4hS-BRNRNuoy1" 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
-                allowfullscreen>
-                </iframe>
-                <div class="stand-1"></div>
-                <div class="stand-2"></div>
-            </div>
-        </section>
+        <div class="i-frame">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/M-9PLDrC_vQ?si=FhA4hS-BRNRNuoy1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="stand-1"></div>
+            <div class="stand-2"></div>
+        </div>
+    </section>
 
-        <!-- About section -->
-        <section class="about" id="perfect">
-            <h3 class="hear">Perfect background, perfect light.</h3>
-            <p class="connecting">
-                Perfect scenery, perfect sight
-            </p>
+    <!-- About section -->
+    <section class="about" id="perfect">
+        <h3 class="hear">Perfect background, perfect light.</h3>
+        <p class="connecting">Perfect scenery, perfect sight</p>
+        <h3 class="hear">Perfect sunshine, perfect night</h3>
+        <p class="connecting">Perfect everything, perfect life</p>
+    </section>
 
-            <h3 class="hear">Perfect sunshine, perfect night</h3>
-            <p class="connecting">
-                Perfect everything, perfect life            
-            </p>
-        </section>
+    <!-- Lightbox image gallery -->
+    <section class="stars" id="pictures">
+        <div class="stars-gallery">
+            <a href="assets/images/cover.jpeg" class="big">
+                <img src="assets/images/cover.jpeg" alt="album cover" title="Album Cover" />
+            </a>
+            <a href="assets/images/hannah1.jpeg" class="big">
+                <img src="assets/images/hannah1.jpeg" alt="Hannah on a surf boat" title="Hannah Bahng" />
+            </a>
+            <a href="assets/images/hannah2.png" class="big">
+                <img src="assets/images/hannah2.png" alt="Hannah with waves behind her" title="Hannah Bahng" />
+            </a>
+            <a href="assets/images/hannah3.jpeg" class="big">
+                <img src="assets/images/hannah3.jpeg" alt="Hannah taking a selfie at the beach" title="Hannah Bahng" />
+            </a>
+            <a href="assets/images/hannah4.webp" class="big">
+                <img src="assets/images/hannah4.webp" alt="Hannah looking straight at the camera" title="Hannah Bahng" />
+            </a>
+        </div>
+    </section>
 
-        <!-- Lightbox image gallery -->
-        <section class="stars" id="pictures">
-            <div class="stars-gallery">
-                <a href="assets/images/cover.jpeg" class="big">
-                    <img
-                        src="assets/images/cover.jpeg"
-                        alt="album cover"
-                        title="Album Cover"/>
-                </a>
-
-                <a href="assets/images/hannah1.jpeg" class="big">
-                    <img
-                        src="assets/images/hannah1.jpeg"
-                        alt="Hannah on a surf boat"
-                        title="Hannah Bahng"/>
-                </a>
-
-                <a href="assets/images/hannah2.png" class="big">
-                    <img
-                        src="assets/images/hannah2.png"
-                        alt="Hannah with waves behind her"
-                        title="Hannah Bahng"/>
-                </a>
-
-                <a href="assets/images/hannah3.jpeg" class="big">
-                    <img
-                        src="assets/images/hannah3.jpeg"
-                        alt="Hannah taking a selfie at the beach"
-                        title="Hannah Bahng"/>
-                </a>
-
-                <a href="assets/images/hannah4.webp" class="big">
-                    <img
-                        src="assets/images/hannah4.webp"
-                        alt="Hannah looking straight at the camera"
-                        title="Hannah Bahng"/>
-                </a>
-
-                
-            </div>
-        </section>
-
-        <!-- company TV Stakeholders -->
-        <section class="album" id="albums">
-            <div class="albums">
-                <div class="music">
-                    <div class="album-1">
-                        <img src="assets/images/cover.jpeg" alt="John Doe" />
-                        <p class="album-name">perfect blues</p>
-                        <p class="name">By Hannah Bahng</p>
-                    </div>
-                    <div class="album-2">
-                        <img src="assets/images/the-abysmal-ep.png" alt="Jane Doe" />
-                        <p class="album-name">The Abysmal EP</p>
-                        <p class="name">By Hannah Bahng</p>
-                    </div>
+    <!-- album cover -->
+    <section class="album" id="albums">
+        <div class="albums">
+            <div class="music">
+                <div class="album-1">
+                    <img src="assets/images/cover.jpeg" alt="John Doe" />
+                    <p class="album-name">perfect blues</p>
+                    <p class="name">By Hannah Bahng</p>
+                </div>
+                <div class="album-2">
+                    <img src="assets/images/the-abysmal-ep.png" alt="Jane Doe" />
+                    <p class="album-name">The Abysmal EP</p>
+                    <p class="name">By Hannah Bahng</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Email subscription -->
-        <section class="sub" id="sub">
-            <h3>Subscribe to our newsletter for updates</h3>
-            <form action="#">
-                <input
-                type="email"
-                name="email"
-                id="email-sub"
-                class="email-sub"
-                required
-                />
-                    <input
-                    type="submit"
-                    value="Subscribe"
-                    id="submit-btn"
-                    class="submit-btn"
-                    />
-            </form>
-        </section>
+    <!-- Email subscription -->
+    <section class="sub" id="sub">
+        <h3>Subscribe to our newsletter for updates</h3>
+        <form action="#">
+            <input type="email" name="email" id="email-sub" class="email-sub" required />
+            <input type="submit" value="Subscribe" id="submit-btn" class="submit-btn" />
+        </form>
+    </section>
 
-        <!-- Social icons -->
-        <section class="social">
-            <h3>Connect with us on Social Media</h3>
-            <div class="socicons">
-                <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
-                <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
-                <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
-            </div>
-        </section>
+    <!-- Social icons -->
+    <section class="social">
+        <h3>Connect with us on Social Media</h3>
+        <div class="socicons">
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        </div>
+    </section>
 
-        <footer>&copy;2024. All Rights Reserved</footer>
+    <footer>&copy;2024. All Rights Reserved</footer>
 
-        <!-- Scroll to top button -->
-        <i class="scroll-up" id="scroll-up">
-            <img
-            src="assets/icons/up-arrow.png"
-            class="socicon up-arrow"
-            alt="up-arrow"/>
-        </i>
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up">
+        <img src="assets/icons/up-arrow.png" class="socicon up-arrow" alt="up-arrow" />
+    </i>
 
-        <!-- Web page script -->
-        <script src="assets/js/app.js"></script>
-        
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
 
-        <!-- Ion icons CDN -->
-        <script
-        type="module"
-        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-        ></script>
+    <!-- Ion icons CDN -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 
-        <!-- Simple lightbox -->
-        <script src="assets/js/simple-lightbox.min.js"></script>
-        <script>
-            var lightbox = new SimpleLightbox(".stars-gallery a");
-        </script>
-    </body>
+    <!-- Simple lightbox -->
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <script>
+        var lightbox = new SimpleLightbox(".stars-gallery a");
+    </script>
+</body>
 </html>
