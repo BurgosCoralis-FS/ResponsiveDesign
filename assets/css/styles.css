@@ -243,43 +243,55 @@ iframe {
     grid-column: 3/6;
 }
 
-.people {
+.album {
     margin-top: 2rem;
     padding: 1rem 0;
 }
 
-.stakeholders {
+.albums {
     margin: 2rem auto;
     max-width: 1100px;
-}
-
-.stakeholders img {
-    border-radius: 0.6rem;
-}
-
-.persons {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    place-items: center;
-    gap: 1rem;
-}
-
-.person-3 img{
-    width: 100%;
-}
-
-.person-2 img{
-    width: 100%;
     
 }
 
-.name {
+.albums img {
+    border-radius: 0.6rem;
+}
+
+.music {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center; */
+    gap: 1rem;
+}
+
+.album-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.album-1 img{
+    width: 73%;
+}
+
+.album-2 img{
+    width: 100%;
+}
+
+.album-name {
     color: var(--primary-color);
     text-align: center;
 }
 
-.role {
-    color: var(--secondary-color);
+.name {
+    color: #5da4d3;
     text-align: center;
     font-size: 0.8rem;
 }
@@ -309,7 +321,7 @@ form {
 }
 
 .submit-btn {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: #fff;
     padding: 0.3rem;
     margin: 0 0.5rem;
@@ -319,7 +331,7 @@ form {
 }
 
 .submit-btn:hover {
-    background-color: #095cf7;
+    background-color: #5d86a2;
 }
 
 .social {
