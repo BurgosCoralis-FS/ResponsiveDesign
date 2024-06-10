@@ -1,6 +1,6 @@
 # Responsive Design
 
-For this project, I made a simple landing page mainly using HTML and CSS, JS to change into dark mode and opening/closing the hamburger menu and finally, a responsive layout. 
+For this project, I made a simple landing page mainly using HTML and CSS, JS to change into dark mode and opening/closing the hamburger menu and finally, a responsive layout. Inspired by Hannah Bahng's Perfect Blues for the light theme and Abysmal for the dark theme
 
 <p align="center">
   <br>

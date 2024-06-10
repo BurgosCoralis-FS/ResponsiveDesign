@@ -1,12 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 
+.caveat {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
 /* CSS Variables */
 :root {
     --normal-font: 400;
     --bold-font: 600;
     --bolder-font: 900;
-    --primary-color: #0652dd;
-    --secondary-color: #ea2027;
+    --primary-color: #fff;
+    --secondary-color: #1e1e1e;
     --line-height: 1.7rem;
     --transition: 0.4s ease-in;
 }
@@ -25,7 +31,8 @@ html {
 }
 
 body {
-    font-family: "Roboto", sans-serf;
+    font-family: "Caveat";
+    background-color: #294e71;
 }
 
 ul li {
@@ -54,7 +61,7 @@ a:hover {
 }
 
 nav {
-    background: #fff;
+    background: #5d86a2;
     display: flex;
     justify-content: space-between;
     align-items: center;
