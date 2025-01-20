@@ -40,6 +40,7 @@ html {
 body {
     font-family: "Caveat";
     background-color: #294e71;
+    font-size: 24px;
 }
 
 ul li {
@@ -92,7 +93,6 @@ nav {
 }
 
 .logo {
-    font-size: 2rem;
     font-weight: 500;
 }
 
@@ -120,7 +120,6 @@ ul {
 }
 
 .intro-text h1 {
-    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -145,7 +144,6 @@ ul {
     display: inline-block;
     padding: 0.8rem 0.6rem;
     border: none;
-    font-size: 1.4rem;
     border-radius: 5px;
     color: #fff;
 }
@@ -210,12 +208,7 @@ iframe {
 }
 
 .about h3 {
-    font-size: 3em;
     margin-bottom: -20px;
-}
-
-.about p {
-    font-size: 1.5em;
 }
 
 .about h3 {
@@ -224,7 +217,6 @@ iframe {
 
 .about p {
     text-shadow: 2px 2px 2px #333;
-    font-size: 1.8rem;
 }
 
 .stars-gallery {
@@ -307,7 +299,6 @@ iframe {
 .name {
     color: #5da4d3;
     text-align: center;
-    font-size: 0.8rem;
 }
 
 .sub {
@@ -351,10 +342,6 @@ form {
 .social {
     text-align: center;
     margin: 2rem;
-}
-
-.socicons {
-    font-size: 1.3rem;
 }
 
 footer {
@@ -419,6 +406,7 @@ footer {
 
 body.dark {
     background-color: #1e272e;
+    font-size: 16px;
 }
 
 body.dark .bar {
@@ -445,10 +433,6 @@ body.dark ul {
 
 body.dark .name {
     color: var(--primary-color);
-}
-
-body.dark .role {
-    color: var(--secondary-color);
 }
 
 body.dark footer {
@@ -498,22 +482,13 @@ body.dark nav .logo::before {
         transform: translateY(-10px) rotate(-45deg);
     } 
 
-    .logo {
-        font-size: 1.5rem;
-    }
-
     .hero {
         flex-direction: column;
         max-width: 500px;
     }
 
-    .intro-text h1 {
-        font-size: 2.3rem;
-    }
-
     .btn {
         padding: 0.5rem;
-        font-size: 1.2rem;
     }
 
     iframe {
@@ -540,10 +515,6 @@ body.dark nav .logo::before {
 @media screen and (max-width: 420px) {
     .hero {
         max-width: 330px;
-    }
-
-    .intro-text h1 {
-        font-size: 2rem;
     }
 
     iframe {
