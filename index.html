@@ -25,145 +25,85 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
 
-    <title>Landing Page</title>
+    <title>Responsive Design</title>
 </head>
 <body>
     <!-- Navbar -->
     <nav>
         <a>
-            <h1 id="nav-title">perfect blues</h1>
+            <h1 id="nav-title">Perfect Blues</h1>
         </a>
-
-        <ul>
-            <li class="nav-item">
-                <a href="#perfect" class="nav-link" id="nav-link">Perfect</a>
-            </li>
-            <li class="nav-item">
-                <a href="#pictures" class="nav-link" id="nav-link">Pictures</a>
-            </li>
-            <li class="nav-item">
-                <a href="#albums" class="nav-link" id="nav-link">Albums</a>
-            </li>
-            <li class="nav-item">
-                <a href="#sub" class="nav-link" id="nav-link">Contact us</a>
-            </li>
-        </ul>
 
         <!-- Dark/light theme switcher -->
         <div class="theme-switch">
             <input type="checkbox" class="checkbox" id="checkbox" />
             <label for="checkbox" class="label">
-                <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
-                <ion-icon name="moon-outline" class="moon"></ion-icon>
                 <div class="switcher"></div>
             </label>
-        </div>
-
-        <!-- Bars -->
-        <div class="hamburger" id="hamburger">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
         </div>
     </nav>
 
     <!-- Hero section -->
     <section class="hero">
-        <div class="intro-text">
-            <h1>
-                <span class="hear">Playing the perfect blues</span> <br />
-                <span class="connecting">Happy moments, take a breath</span>
-            </h1>
-            <h3 class="sub">Singing a perfect tune</h3>
-            <a class="btn black" href="#">Feeling creatures</a>
-            <a class="btn blue" href="#">in the depth</a>
-        </div>
+        <div class="intro">
+            <div class="intro-text">
+                <h1> Playing the perfect blues <br />
+                    <span>Happy moments, take a breath</span>
+                </h1>
+                <h1 class="sub">Singing a perfect tune</h1>
+            </div>
+            <div class="buttons">
+                <button class="left"> Feeling creatures </button>
+                <button class="right"> In the depth </button>
+            </div>
+    </div>
+        
 
         <div class="i-frame">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/M-9PLDrC_vQ?si=FhA4hS-BRNRNuoy1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <div class="stand-1"></div>
-            <div class="stand-2"></div>
         </div>
     </section>
 
-    <!-- More lyrics section -->
-    <section class="about" id="perfect">
-        <h3 class="hear">Perfect background, perfect light.</h3>
-        <p class="connecting">Perfect scenery, perfect sight</p>
-        <h3 class="hear">Perfect sunshine, perfect night</h3>
-        <p class="connecting">Perfect everything, perfect life</p>
-    </section>
+    <!-- waves -->
+    <!-- code by https://codepen.io/codetypes/pen/XWdaYQK -->
+    <svg viewBox="0 0 1320 500">
+        <path fill-opacity="0.5" d="
+            M0, 192
+            C220, 100, 440, 100, 660, 192
+            C880, 290, 1100, 290, 1320, 192
+            L1320 500
+            L0 500
+                "
+            fill="#000"/>
+        <path fill-opacity="0.5" d="
+            M0, 192
+            C220, 100, 440, 100, 660, 192
+            C880, 290, 1100, 290, 1320, 192
+            L1320 500
+            L0 500
+                "
+            />
+        <path fill-opacity="0.5" d="
+            M0, 192
+            C220, 100, 440, 100, 660, 192
+            C880, 290, 1100, 290, 1320, 192
+            L1320 500
+            L0 500
+                "
+            />
+        <path fill-opacity="0.5" d="
+            M0, 192
+            C220, 100, 440, 100, 660, 192
+            C880, 290, 1100, 290, 1320, 192
+            L1320 500
+            L0 500
+                "
+            />
+    </svg>
 
-    <!-- Lightbox image gallery -->
-    <section class="stars" id="pictures">
-        <div class="stars-gallery">
-            <a class="big">
-                <img src="assets/images/cover.jpeg" alt="album cover" title="Album Cover" />
-            </a>
-            <a class="big">
-                <img src="assets/images/hannah1.jpeg" alt="Hannah on a surf boat" title="Hannah Bahng" />
-            </a>
-            <a class="big">
-                <img src="assets/images/hannah2.png" alt="Hannah with waves behind her" title="Hannah Bahng" />
-            </a>
-            <a class="big">
-                <img src="assets/images/hannah3.jpeg" alt="Hannah taking a selfie at the beach" title="Hannah Bahng" />
-            </a>
-            <a class="big">
-                <img src="assets/images/hannah4.webp" alt="Hannah looking straight at the camera" title="Hannah Bahng" />
-            </a>
-        </div>
-    </section>
-
-    <!-- album cover -->
-    <section class="album" id="albums">
-        <div class="albums">
-            <div class="music">
-                <div class="album-1">
-                    <img src="assets/images/cover.jpeg" alt="John Doe" />
-                    <p class="album-name">perfect blues</p>
-                    <p class="name">By Hannah Bahng</p>
-                </div>
-                <div class="album-2">
-                    <img src="assets/images/the-abysmal-ep.png" alt="Jane Doe" />
-                    <p class="album-name">The Abysmal EP</p>
-                    <p class="name">By Hannah Bahng</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Email subscription -->
-    <section class="sub" id="sub">
-        <h3>Subscribe to our newsletter for updates</h3>
-        <form action="#">
-            <input type="email" name="email" id="email-sub" class="email-sub" required />
-            <input type="submit" value="Subscribe" id="submit-btn" class="submit-btn" />
-        </form>
-    </section>
-
-    <!-- Social icons -->
-    <section class="social">
-        <h3>Connect with us on Social Media</h3>
-        <div class="socicons">
-            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-        </div>
-    </section>
-
-    <footer>&copy;2024. All Rights Reserved</footer>
-
-    <!-- Scroll to top button -->
-    <i class="scroll-up" id="scroll-up">
-        <img src="assets/icons/up-arrow.png" class="socicon up-arrow" alt="up-arrow" />
-    </i>
 
     <!-- Web page script -->
     <script src="assets/js/app.js"></script>
-
-    <!-- Ion icons CDN -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 
     <!-- Simple lightbox -->
     <script src="assets/js/simple-lightbox.min.js"></script>
