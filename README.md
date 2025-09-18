@@ -15,7 +15,7 @@ For this project, I made a simple landing page using HTML CSS, and JS that toggl
 </p>
 
 <p align="center" >
-<a href="https://burgoscoralis-fs.github.io/ResponsiveDesign/">Try it out here</a> 
+<a href="https://perfectblues.netlify.app/">Try it out here</a> 
 </p>
 
 ## Files
